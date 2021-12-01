@@ -161,6 +161,4 @@ p = PostProcessor(".",
 p.run()
 
 
-os.system("mv *_Skim.root tree.root")
-
 print("DONE")
