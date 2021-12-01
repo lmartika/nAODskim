@@ -1,0 +1,38 @@
+keep *
+drop L1*
+keep L1_SingleJet*
+keep L1PreFiring*
+
+drop HLT*
+
+keep HLT_AK4*
+keep HLT_AK8*
+keep HLT_DiPFJet*
+keep HLT_PFJet*
+keep HLT_ZeroBias
+
+drop GenVisTau*
+drop HTXS*
+drop IsoTrack*
+drop boosted*
+drop LowPtEle*
+drop PPS*
+drop Proton*
+
+drop Electron*
+drop Tau*
+drop Muon*
+
+drop Photon*
+keep nPhoton
+keep Photon_pt
+keep Photon_eta
+keep Photon_phi
+keep Photon_mass
+keep Photon_hoe
+keep Photon_cutBased
+keep Photon_jetIdx
+keep Photon_seedGain
+keep Photon_eCorr
+keep Photon_energyErr
+keep Photon_r9
